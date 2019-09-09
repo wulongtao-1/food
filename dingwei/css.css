@@ -1,0 +1,27 @@
+.fix_div{
+	position: fixed;
+	right: 0px;
+}
+ul{
+	list-style-type: none;	
+}
+li{
+	border: 1px #00000060 solid;
+	text-align: center;
+}
+span{
+	font-size: 12px;
+	display: block;
+}
+li:hover{
+	color:#ff6700;;
+}
+.hover_img{
+	display: none;
+}
+li:hover .hover_img{
+	display: inline;
+}
+li:hover .show_img{
+	display: none;
+}
