@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>美食生鲜_水果蔬菜_外卖网上订餐平台-美团外卖送啥都快</title>
+		<link href="css/header.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="csr-header">
+			<div class="header-content">
+				<a id="left" href="#">
+					<div class="logo-pic"></div>
+					<div class="waimai">
+						<div class="waimai-title"></div>
+						<div class="waimai-slogan"></div>
+					</div>
+				</a>
+				<div id="right">
+					<ul id="links">
+						<li <data-index="0">
+							<a href="#">首页</a>
+						</li>
+						<li <data-index="1">
+							<a href="#">入驻加盟</a>
+						</li>
+						<li <data-index="2">
+							<a href="#">开放平台</a>
+						</li>
+						<li <data-index="3">
+							<a href="#">社会责任</a>
+						</li>
+						<li <data-index="4">
+							<a href="#">点外卖</a>
+						</li>
+						<li <data-index="5">
+							<a href="#">下载手机</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="top-wrap">
+			<div class="map" id="map" style="bottom: -160px;">
+				<div class="top">
+					<div class="guider" style="visibility: visible; height: 120px; margin-top: 50px;" id="guider">
+						<div class="bg">
+							<a href="#" class="cross" id="tipclose"></a>
+							<div class="clearfix title">
+								<span class="s-1">1.选城市</span>
+								<span class="s-2">2.搜位置</span>
+								<span class="s-3">3.叫外卖</span>
+								<span class="s-4">4.享美食</span>
+								<span class="s-5">5.来评价</span>
+								
+							</div>
+							<div class="choose-city"></div>
+							<div class="choose-poi"></div>
+							<div></div>
+						</div>
+					</div>
+					<div class="user-tools">
+						<style type="text/css">
+							
+							.user-container {
+								position: relative;
+							}
+
+							.list-btn {
+								color: red;
+							}
+
+							.new-login-btn, .new-register-btn {
+								margin-right: 8px;
+							}
+
+							.new-list-btn, .new-login-btn, .new-register-btn {
+								display: block;
+								height: 30px;
+								line-height: 30px;
+								background-color: #fff;
+								color: #333;
+								border-radius: 2px;
+							}
+
+							.new-register-btn, .new-login-btn {
+								padding: 0 19px;
+							}
+
+							.new-list-btn {
+								width: 96px;
+								background: #fff url(img/order-list.png) no-repeat 10px 6px / 15px 18px;
+								padding-left: 30px;
+								box-sizing: border-box;
+							}
+
+							.new-username-map,
+							.new-username-home {
+								height: 30px;
+								line-height: 30px;
+							}
+
+							.new-username-map {
+								width: 96px;
+								padding-left: 10px;
+								padding-right: 24px;
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+								display: block;
+								background: #fff url(/static/img/new2018/user-down-arrow.png) no-repeat 110px 50% / 8px 4px;
+								margin-left: 8px;
+								border-radius: 2px;
+								text-align: center;
+        
+							}
+
+							.new-username-map:hover,
+							.new-username-home:hover {
+								cursor: pointer;
+							}
+
+							.new-username-home {
+								width: 96px;
+								padding-left: 10px;
+								padding-right: 24px;
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+								display: block;
+								background: url(/static/img/new2018/user-down-arrow.png) no-repeat 110px 50% / 8px 4px;
+								margin-left: 8px;
+								text-align: center;
+							}
+
+							.new-tools {
+								display: none;
+								position: absolute;
+								right: 0;
+								top: 40px;
+								padding: 10px 0;
+								background: #fff;
+								width: 96px;
+								z-index: 99;
+								box-shadow: 0 0 4px 0 rgba(0,0,0,0.10);
+							}
+
+							.new-tools li {
+								text-align: center;
+								height: 36px;
+								line-height: 36px;
+							}
+
+							.new-tools .divide-line {
+								border-bottom: 1px solid #f6f6f6;
+							}
+
+							.new-tools li:hover {
+								background: #f6f6f6;
+							}
+
+							.new-tools li a {
+								display: block;
+								color: #333;
+							}
+						</style>
+						<div class="clearfix" id="dis-login" style="line-height: 30px; position: relative">
+							<a class="new-list-btn fr" href="#">我的订单</a>
+							<a class="j-login new-login-btn fr" href="#" rel="nofollow">登录</a>
+							<a class="j-register new-register-btn fr" href="#" rel="nofollow">注册</a>
+							
+						</div>
+					</div>
+					<div class="clearfix address  m-shadow" id="result" data-epr2t="true">
+						<div class="fr history-address" style="display: none;">
+							<a id="historylist" href="#" title="历史地址">
+							<span>历史地址</span>
+							<b class="triangle-down"></b>
+							</a>
+							<script type="text/template" id="historyData">
+								[
+								]
+							</script>
+						</div>
+						<div class="fl current-city">
+							<a href="javascript:;" class="city" id="citylist" data-ispoi="1" data-cid="360100">
+								<span>
+									南昌
+								</span>
+								<b class="triangle-down"></b><span class="dvd-line"></span>
+							</a>
+						</div>
+						<div class="fl address-input">
+							<div class="input-container clearfix">
+								<input type="text" id="searchKeywords" placeholder="输入地址搜索周边美食" class="fl" autocomplete="off">
+								<a href="javascript:;" class="fl" id="search">搜索</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="result hidden" id="result" style="overflow: hidden; padding: 0px; width: 300px;">
+					<div class="jspContainer" style="width: 300px; height: 198px;">
+						<div class="jspPane" style="padding: 0px; top: 0px; left: 0px; width: 300px;">
+							<div class="loading"></div>
+						</div>
+					</div>
+				</div>
+				<div class="container hidden" id="bd-map">
+				</div>
+			</div>
+		</div>
+		<div class="csr-footer-container">
+			<div class="csr-footer">
+				<div class="footer-content">
+					<div class="top">
+						<div class="left">
+							<ul class="col1">
+								<li><a href="#">开放平台</a></li>
+								<li><a href="#">媒体报道</a></li>
+								<li><a href="#">资质规则</a></li>
+								<li><a href="#">关于我们</a></li>
+							</ul>
+							<ul class="col2">
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">用户反馈</a></li>
+								<li><a href="#">诚信举报</a></li>
+								<li><a href="#">加入我们</a></li>
+							</ul>
+						</div>
+						<div class="middle">
+							<div class="cooperation">
+								<div class="title">品牌合作</div>
+								<div class="content">xxxx@meituan.com</div>
+							</div>
+							<div class="client-service">
+								<div class="title">客服 000011100</div>
+								<div class="content">周一至周日 9:00~23:00<br>客服不受理商务合作</div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="right-title">更多商家，更多优惠</div>
+							<div class="QR-code">
+								<div class="QR-code1"></div>
+								<div class="QR-code2"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<div class="qualification-img"></div>
+						<a class="police qualification-text" href="#" target="_blank">北京三快在线科技有限公司</a>
+						<span class="copyright">©️ meituan.com 京ICP证070791号 </span>
+						<div class="img"></div>
+						<span class="police">京公网安备11010502025545号</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
