@@ -1,0 +1,194 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title 动画菜单指标
+        link(href='/stylesheets/style1.css', rel='stylesheet', type='text/css')
+        link(rel='stylesheet', href='/stylesheets/style3.css', type='text/css')
+        script(src='/javascripts/jquery-1.9.1.min.js', type='text/javascript')
+        script(src='/javascripts/jqueryphoto.js', type='text/javascript')
+        link(rel='stylesheet', href='/stylesheets/style4.css')
+        link(rel='stylesheet', type='text/css', href='/stylesheets/style2.css')
+        script(src='/javascripts/jquery.min.js', type='text/javascript')
+    body
+        .qw
+            nav.nav
+                a.nav-item.is-active(href='#')
+                    img.qw(src='/images/header-logo-black.png')
+                a.nav-item.is-active(href='#', active-color='orange') 首页
+                a.nav-item(href='#', active-color='green') 入驻加盟
+                a.nav-item(href='#', active-color='blue') 开放平台
+                a.nav-item(href='#', active-color='red') 社会责任
+                a.nav-item(href='#', active-color='rebeccapurple') 点外卖
+                a.nav-item(href='#', active-color='yellow') 下载链接
+                // <span class="nav-indicator"></span>
+        .tribox
+        .bodyCon08
+            // 学员
+            .students
+                #four_flash
+                    .flashBg
+                        ul.mobile
+                            li
+                                img(src='/images/senke_xy00.jpg')
+                                dd 我要入驻
+                                p 商家、配送、城市代理、服务
+                                a(href='')
+                            li
+                                img(src='/images/senke_xy01.jpg')
+                                dd 开发者接入
+                                p 外卖、餐饮开放平台
+                                a(href='')
+                            li
+                                img(src='/images/senke_xy02.jpg')
+                                dd 我要点外卖
+                                p 快捷下单、一键点餐
+                                a(href='')
+        .index_zhuanjia
+            #picBox.index_zhuanjia_pic
+                #prevTop.index_zhuanjia_left_inc
+                #nextTop.index_zhuanjia_right_inc
+                ul
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia_l.jpg', width='949', height='483')
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia_l2.jpg', width='949', height='483')
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia_l3.jpg', width='949', height='483')
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia_l4.jpg', width='949', height='483')
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia.jpg', width='949', height='483')
+                    li
+                        a(href='#')
+                            img(src='/images/index_zhuanjia.jpg', width='949', height='483')
+            #listBox.index_zhuanjia_list
+                #prev.index_zhuanjia_pre
+                div(style='height:9px;')
+                #listBox.index_zhuanjia_lists
+                    ul
+                        li.on
+                            dd
+                                img(src='/images/index_zhuanjia_l.jpg', width='96', height='96')
+                            dt
+                            dl 美团外卖骑手人物
+                            dl 李军
+                        li
+                            dd
+                                img(src='/images/index_zhuanjia_l2.jpg', width='96', height='96')
+                            dl 美团外卖骑手
+                            dl 徐征
+                        li
+                            dd
+                                img(src='/images/index_zhuanjia_l3.jpg', width='96', height='96')
+                            dl 美团服务市场
+                            dl 米粉面馆
+                        li
+                            dd
+                                img(src='/images/index_zhuanjia_l4.jpg', width='96', height='96')
+                            dl 美团媒体报道
+                            dl 2018年度报道
+                #next.index_zhuanjia_next
+        .xcx_qingqiao
+            .container
+                .xcx_qingqiao_title
+                    p
+                        span 服务介绍
+                        | 轻巧的功能依旧强大
+                .xcx_what_text
+                    | 品类全覆盖，你想要的应有尽有
+                    br
+                .xcx_dowhat_main
+                    .xcx_phone
+                        .xcx_phone_main
+                            ul(style='')
+                                li
+                                    img(src='/images/xcx/pic_1.jpg')
+                                li
+                                    img(src='/images/xcx/pic_2.jpg')
+                                li
+                                    img(src='/images/xcx/pic_3.jpg')
+                                li
+                                    img(src='/images/xcx/pic_4.jpg')
+                                li
+                                    img(src='/images/xcx/pic_5.jpg')
+                                li
+                                    img(src='/images/xcx/pic_6.jpg')
+                    .xcx_dowhat_list
+                        ul
+                            li.li_left.li_1
+                                .title 美食
+                                .pic
+                            li.li_left.li_2
+                                .title 甜点饮品
+                                .pic
+                            li.li_left.li_3
+                                .title 水果生鲜
+                                .pic
+                            li.li_right.li_4
+                                .title 超市便利
+                                .pic
+                            li.li_right.li_6
+                                .title 微信支付
+                                .pic
+        .bottom_1
+            .middle-line
+            .csr-footer
+                .footer-content
+                    .top
+                        .left
+                            ul
+                                li
+                                    a(href='test.html') 开放平台
+                                li
+                                    a(href='test.html') 媒体报道
+                                li
+                                    a(href='test.html') 资质规则
+                                li
+                                    a(href='test.html') 入驻加盟
+                            ul
+                                li
+                                    a(href='test.html') 常见问题
+                                li
+                                    a(href='test.html') 用户反馈
+                                li
+                                    a(href='test.html') 诚信举报
+                                li
+                                    a(href='test.html') 加入我们
+                        .middle
+                            .cooperation
+                                .title 品牌合作
+                                .content wpbg.marketing@meituan.com
+                            .cooperation
+                                .title 客服 1010-9777
+                                .content
+                                    | 周一至周日 9:00~23:00
+                                    br
+                                    | 									客服不受理商务合作
+                        .right
+                            .right-title 更多商家，更多优惠
+                            .QR-code
+                                img(src='/images/s1.meituan.net.png', height='90px', width='90px')
+                                span      
+                                img(src='/images/s2.meituan.net.png', height='90px', width='90px')
+                    .bottom
+                        span ©️ meituan.com 京ICP证070791号     
+                        img(src='img/s3.meituan.net.png', width='18px', height='18px')
+                        span 京公网安备11010502025545号
+        script(type='text/javascript').
+            $(document).ready(function () {
+                $(".xcx_dowhat_list ul li").hover(function () {
+                    $(".xcx_dowhat_list ul li").removeClass("current");
+                    $i = $(this).index();
+                    $(this).addClass("current");
+                    top1 = -$i * 364;
+                    $(".xcx_phone_main ul").stop(true, false).animate({"top": top1});
+                });
+            });
+        script(type='text/javascript', src='/javascripts/jquery.min.js')
+        script(src='/javascripts/script.js')
