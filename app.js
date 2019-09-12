@@ -11,6 +11,7 @@ var dianwaimaiRouter= require('./routes/dianwaimai');
 var kaifangpingtaiRouter= require('./routes/kaifangpingtai');
 var jiamengRouter= require('./routes/jiameng');
 
+var shzrRouter= require('./routes/shzr');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/users', usersRouter);
 app.use('/register',registerRouter);
 app.use('/dianwaimai',dianwaimaiRouter);
 app.use('/kaifangpingtai',kaifangpingtaiRouter);
+app.use('/shzr',shzrRouter);
 
 app.use('/jiameng',jiamengRouter);
 
