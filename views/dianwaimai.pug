@@ -1,0 +1,113 @@
+doctype html
+head
+    meta(charset='utf-8')
+    title 美食生鲜_水果蔬菜_外卖网上订餐平台-美团外卖送啥都快
+    link(href='/stylesheets/header.css', type='text/css', rel='stylesheet')
+.csr-header
+    .header-content
+        a#left(href='#')
+            .logo-pic
+            .waimai
+                .waimai-title
+                .waimai-slogan
+        #right
+            ul#links
+                li(data-index='0')
+                    a(href='#') 首页
+                li(data-index='1')
+                    a(href='#') 入驻加盟
+                li(data-index='2')
+                    a(href='#') 开放平台
+                li(data-index='3')
+                    a(href='#') 社会责任
+                li(data-index='4')
+                    a(href='#') 点外卖
+                li(data-index='5')
+                    a(href='#') 下载手机
+.top-wrap
+    #map.map
+        .top
+            #guider.guider(style='visibility: visible; height: 120px; margin-top: 50px;')
+                .bg
+                    a#tipclose.cross(href='#')
+                    .clearfix.title
+                        span.s-1 1.选城市
+                        span.s-2 2.搜位置
+                        span.s-3 3.叫外卖
+                        span.s-4 4.享美食
+                        span.s-5 5.来评价
+                    .choose-city
+                    .choose-poi
+                    div
+            .user-tools
+                #dis-login.clearfix(style='line-height: 30px; position: relative')
+                    a.new-list-btn.fr(href='#') 我的订单
+                    a.j-login.new-login-btn.fr(href='#', rel='nofollow') 登录
+                    a.j-register.new-register-btn.fr(href='#', rel='nofollow') 注册
+            #result.clearfix.address.m-shadow(data-epr2t='true')
+                .fr.history-address(style='display: none;')
+                    a#historylist(href='#', title='历史地址')
+                        span 历史地址
+                        b.triangle-down
+                    script#historyData(type='text/template').
+                        [
+                        ]
+                .fl.current-city
+                    a#citylist.city(href='javascript:;', data-ispoi='1', data-cid='360100')
+                        span
+                            |南昌
+                        b.triangle-down
+                        span.dvd-line
+                .fl.address-input
+                    .input-container.clearfix
+                        input#searchKeywords.fl(type='text', placeholder='输入地址搜索周边美食', autocomplete='off')
+                        a#search.fl(href='javascript:;') 搜索
+        #result.result.hidden(style='overflow: hidden; padding: 0px; width: 300px;')
+            .jspContainer(style='width: 300px; height: 198px;')
+                .jspPane(style='padding: 0px; top: 0px; left: 0px; width: 300px;')
+                    .loading
+        #bd-map.container.hidden
+.csr-footer-container
+    .csr-footer
+        .footer-content
+            .top
+                .left
+                    ul.col1
+                        li
+                            a(href='#') 开放平台
+                        li
+                            a(href='#') 媒体报道
+                        li
+                            a(href='#') 资质规则
+                        li
+                            a(href='#') 关于我们
+                    ul.col2
+                        li
+                            a(href='#') 常见问题
+                        li
+                            a(href='#') 用户反馈
+                        li
+                            a(href='#') 诚信举报
+                        li
+                            a(href='#') 加入我们
+                .middle
+                    .cooperation
+                        .title 品牌合作
+                        .content xxxx@meituan.com
+                    .client-service
+                        .title 客服 000011100
+                        .content
+                            |周一至周日 9:00~23:00
+                            br
+                            |客服不受理商务合作
+                .right
+                    .right-title 更多商家，更多优惠
+                    .QR-code
+                        .QR-code1
+                        .QR-code2
+            .bottom
+                .qualification-img
+                a.police.qualification-text(href='#', target='_blank') 北京xx在线科技有限公司
+                span.copyright ©meituan.com 京ICP证070xxx号
+                .img
+                span.police 京公网安备110105020xxxxxx号
