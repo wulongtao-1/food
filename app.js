@@ -29,7 +29,11 @@ app.use('/users', usersRouter);
 app.use('/register',registerRouter);
 app.use('/dianwaimai',dianwaimaiRouter);
 app.use('/kaifangpingtai',kaifangpingtaiRouter);
+
 app.use('/jiameng',jiamengRouter);
+
+app.use('/dangle',lastRouter);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
