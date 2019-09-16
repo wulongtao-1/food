@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>箭头</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="视觉" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01外卖PC端-服务市场" transform="translate(-405.000000, -1247.000000)" fill-rule="nonzero">
+            <g id="箭头" transform="translate(401.000000, 1246.000000)">
+                <rect id="Rectangle-path" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M5.34308139,14.9899168 C5.14161798,14.9899168 4.93929116,14.9207637 4.77453886,14.7794835 C4.40745973,14.4653285 4.36478467,13.9134467 4.67978709,13.5467993 L9.43640213,7.99670623 L4.67978711,2.4465972 C4.36478469,2.0799498 4.40747573,1.52805198 4.77453888,1.21391297 C5.14075458,0.901037094 5.69308409,0.942449016 6.00637569,1.30866473 L11.2512996,7.427732 C11.5321492,7.75511003 11.5321492,8.23828644 11.2512996,8.56566448 L6.00637569,14.6847317 C5.83393259,14.8862112 5.5889307,14.9899168 5.34308139,14.9899168 Z" id="Shape" fill="#999999"></path>
+            </g>
+        </g>
+    </g>
+</svg>

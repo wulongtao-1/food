@@ -1,0 +1,236 @@
+.banner-box{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.main-content{
+    width: 966px;
+    margin: 0 auto;
+}
+.banner-box .title{
+    padding-top: 109px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 46px;
+}
+.banner-box .subtitle{
+    font-size: 16px;
+    color: #fff;
+}
+.banner-box .subtitle span{
+    margin: 0 5px;
+}
+.banner-box .btn-kd{
+    margin-top: 38px;
+    width: 148px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #47270f;
+    background: #fbcc5b;
+    cursor: pointer;
+    display: block;
+}
+
+
+.label-box{
+    height: 100px;
+    border-bottom: 1px solid #eee;
+}
+.label-box .label-item{
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.label-box .label-item .icon{
+    background-size: 54px 60px;
+    text-align: center;
+    width: 54px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffa800;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.label-box .label-item .content{
+    font-size: 20px;
+    color: #333;
+}
+
+
+.service-box{
+    height: 470px;
+}
+.service-box .title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 70px;
+    position: relative;
+}
+.service-box .title:before{
+    content: " ";
+    width: 40px;
+    height: 6px;
+    background-color: #fbcc5b;
+    border-radius: 3px;
+    position: absolute;
+    margin: auto;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+}
+.service-box .service-row{
+    height: 120px;
+	display: inline-block;
+}
+.service-box .service-row .item{
+    width: 480px;
+    height: 120px;
+    display: inline-block;
+    padding: 25px 0;
+}
+.service-box .service-row .item img{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+.service-box .service-row .item .item-content{
+    display: inline-block;
+}
+.service-box .service-row .item .item-content .item-title{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.service-box .service-row .item .item-content .content{
+    font-size: 14px;
+    color: #666;
+    width: 264px;
+    display: inline-block;
+}
+
+
+.kd-box{
+    height: 380px;
+    background: #f7f7f7;
+}
+.kd-box .title{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 70px;
+    position: relative;
+}
+.kd-box .title:before {
+    content: " ";
+    width: 40px;
+    height: 6px;
+    background-color: #fbcc5b;
+    border-radius: 3px;
+    position: absolute;
+    margin: auto;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+}
+.kd-box .kd-item{
+    background-color: #fff;
+    width: 50px;
+    height: 115px;
+    border-radius: 150px;
+    padding-top: 22px;
+    display: inline-block;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-right: 52px;
+    vertical-align: top;
+    position: relative;
+}
+.kd-box .kd-item:before {
+    content: " ";
+    background-image: url(../images/icon_arrow.svg);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -40px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.kd-box .kd-item .num{
+    opacity: .2;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.kd-box .kd-item .content{
+    font-size: 16px;
+    color: #333;
+    line-height: 25.89px;
+    width: 64px;
+    height: 50px;
+}
+.kd-box .kd-item:last-child{
+    margin-right: 0;
+}
+
+
+.footer{
+    height: 180px;
+    padding: 40px 0;
+}
+.footer .footer-item{
+    width: 250px;
+    display: inline-block;
+    border-right: 1px dashed #eee;
+    height: 100px;
+    padding-left: 60px;
+}
+.footer .footer-item:first-child {
+    padding-left: 0;
+    width: 310px;
+}
+.footer .footer-item .email{
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+.footer .footer-item .link-box{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer .footer-item .link-box a{
+    color: #333;
+}
+.footer .footer-item .qr-img{
+    margin-right: 16px;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+}
+.footer .footer-item .qr-detail{
+    display: inline-block;
+    margin-top: 27px;
+}
+.footer .footer-item .qr-detail .title{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.footer .footer-item .qr-detail .info{
+    font-size: 12px;
+    color: #999;
+}

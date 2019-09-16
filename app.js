@@ -10,6 +10,8 @@ var registerRouter= require('./routes/register');
 var dianwaimaiRouter= require('./routes/dianwaimai');
 var kaifangpingtaiRouter= require('./routes/kaifangpingtai');
 var jiamengRouter= require('./routes/jiameng');
+var shichangfuwuRouter= require('./routes/shichangfuwu');
+var lastRouter= require('./routes/dangle');
 
 var shzrRouter= require('./routes/shzr');
 
@@ -31,6 +33,7 @@ app.use('/register',registerRouter);
 app.use('/dianwaimai',dianwaimaiRouter);
 app.use('/kaifangpingtai',kaifangpingtaiRouter);
 app.use('/shzr',shzrRouter);
+app.use('/shichangfuwu',shichangfuwuRouter);
 
 app.use('/jiameng',jiamengRouter);
 
