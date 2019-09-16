@@ -13,9 +13,12 @@ var shangouRouter= require('./routes/shangou');
 =======
 var kaifangpingtaiRouter= require('./routes/kaifangpingtai');
 var jiamengRouter= require('./routes/jiameng');
-
 var shzrRouter= require('./routes/shzr');
+<<<<<<< HEAD
 >>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
+=======
+var cjwtRouter= require('./routes/cjwt');
+>>>>>>> yfc
 
 var app = express();
 
@@ -38,10 +41,9 @@ app.use('/shangou',shangouRouter);
 =======
 app.use('/kaifangpingtai',kaifangpingtaiRouter);
 app.use('/shzr',shzrRouter);
+app.use('/cjwt',cjwtRouter);
 
 app.use('/jiameng',jiamengRouter);
-
-app.use('/dangle',lastRouter);
 
 // catch 404 and forward to error handler
 >>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
