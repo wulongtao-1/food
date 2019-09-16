@@ -8,23 +8,20 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter= require('./routes/register');
 var dianwaimaiRouter= require('./routes/dianwaimai');
-<<<<<<< HEAD
+
 var shangouRouter= require('./routes/shangou');
-=======
+
 var kaifangpingtaiRouter= require('./routes/kaifangpingtai');
 var jiamengRouter= require('./routes/jiameng');
-<<<<<<< HEAD
+
 var shichangfuwuRouter= require('./routes/shichangfuwu');
 var lastRouter= require('./routes/dangle');
 
-=======
->>>>>>> 524122bd6d4976039516fc290fa7329bc054baa1
+
+
 var shzrRouter= require('./routes/shzr');
-<<<<<<< HEAD
->>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
-=======
+
 var cjwtRouter= require('./routes/cjwt');
->>>>>>> yfc
 
 var app = express();
 
@@ -42,21 +39,20 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/register',registerRouter);
 app.use('/dianwaimai',dianwaimaiRouter);
-<<<<<<< HEAD
+
 app.use('/shangou',shangouRouter);
-=======
+
 app.use('/kaifangpingtai',kaifangpingtaiRouter);
 app.use('/shzr',shzrRouter);
-<<<<<<< HEAD
+
 app.use('/shichangfuwu',shichangfuwuRouter);
-=======
+
 app.use('/cjwt',cjwtRouter);
->>>>>>> 524122bd6d4976039516fc290fa7329bc054baa1
 
 app.use('/jiameng',jiamengRouter);
 
 // catch 404 and forward to error handler
->>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
+
 app.use(function(req, res, next) {
   next(createError(404));
 });
