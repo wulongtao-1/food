@@ -8,7 +8,14 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter= require('./routes/register');
 var dianwaimaiRouter= require('./routes/dianwaimai');
+<<<<<<< HEAD
 var shangouRouter= require('./routes/shangou');
+=======
+var kaifangpingtaiRouter= require('./routes/kaifangpingtai');
+var jiamengRouter= require('./routes/jiameng');
+
+var shzrRouter= require('./routes/shzr');
+>>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
 
 var app = express();
 
@@ -26,7 +33,18 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/register',registerRouter);
 app.use('/dianwaimai',dianwaimaiRouter);
+<<<<<<< HEAD
 app.use('/shangou',shangouRouter);
+=======
+app.use('/kaifangpingtai',kaifangpingtaiRouter);
+app.use('/shzr',shzrRouter);
+
+app.use('/jiameng',jiamengRouter);
+
+app.use('/dangle',lastRouter);
+
+// catch 404 and forward to error handler
+>>>>>>> fed04b4d13ceaacf61d74f345c166aa31814d15b
 app.use(function(req, res, next) {
   next(createError(404));
 });
