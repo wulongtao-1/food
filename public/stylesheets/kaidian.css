@@ -1,0 +1,314 @@
+.welcome-container{
+	width: 100%;
+}
+.welcome-container .header {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    background: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 2;
+}
+.welcome-container .header .header-content {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header-left{
+	display: flex;
+    align-items: center;
+}
+.welcome-container .header .logo {
+    width: 38px;
+    height: 38px;
+    background-size: 100% 100%;
+    border-radius: 4px;
+}
+.welcome-container .header, .welcome-container .logo-txt {
+    display: flex;
+    align-items: center;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.welcome-container .header .slogon {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.welcome-container .link-url {
+    text-decoration: none;
+}
+.welcome-container .bold {
+    font-weight: 700;
+    font-family: MicrosoftYaHei-Bold;
+}
+.welcome-container .header .tab-btns {
+    margin-left: 30px;
+    list-style: none;
+    display: flex;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.welcome-container .header .selected {
+    color: #ffd161;
+}
+
+.welcome-container .header .tab-link {
+    font-size: 14px;
+    color: #9E9E9E;
+    text-align: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.welcome-container .bold {
+    font-weight: 700;
+    font-family: MicrosoftYaHei-Bold;
+}
+.welcome-container .header .tab-link {
+    font-size: 14px;
+    color: #9E9E9E;
+    text-align: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.welcome-container .fix-btn {
+    position: absolute;
+    right: 0;
+    top: 14px;
+}
+.welcome-container .m-open-store, .welcome-container .open-store {
+    width: 84px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffd161;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.welcome-container .bold {
+    font-weight: 700;
+    font-family: MicrosoftYaHei-Bold;
+}
+.welcome-container .header-b-pic {
+    width: 100%;
+    position: relative;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(/images/img1/12.png);
+	margin-top: 57px;
+}
+.welcome-container .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-container .content .intro {
+    padding-top: 60px;
+}
+.welcome-container .content .adv-1 {
+    margin-top: 0;
+}
+
+.welcome-container .content .adv {
+    display: flex;
+    width: 940px;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-container .content .adv-1 .adv-1-title {
+    background-image: url(/images/img1/13.jpg);
+}
+.welcome-container .content .adv-title {
+    width: 347px;
+    height: 57px;
+    background-size: 100% 100%;
+}
+.welcome-container .content .adv-1 .adv-1-pic {
+    width: 940px;
+    height: 367px;
+    background-image: url(/images/img1/14.jpg);
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.welcome-container .content .adv-ex1 {
+    width: 940px;
+    height: 183px;
+    background-image: url(/images/img1/he2.png);
+    background-size: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-container .content .adv-2 .adv-2-title {
+    background-image: url(/images/img1/17.jpg);
+}
+.welcome-container .content .adv-2 .adv-2-pic {
+    width: 827px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-size: 100% 100%;
+    background-image: url(/images/img1/18.jpg);
+}
+.welcome-container .content .adv-ex2 {
+    width: 940px;
+    height: 183px;
+    background-image: url(/images/img1/he3.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-container .content .adv-3 .adv-3-title {
+    background-image: url(/images/img1/22.jpg);
+}
+.welcome-container .content .adv-3-content {
+    width: 100%;
+    display: flex;
+	width: 100%;
+    height: 347px;
+    margin-top: 40px;
+    background-size: 100% 100%;
+	background-image:url(/images/img1/he4.png);
+}
+.welcome-container .content .flow {
+    width: 100%;
+    height: 414px;
+    background-color: #f5f5f5;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+.welcome-container .content .flow .title {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+}
+
+.welcome-container .content .flow-step-content{
+    height: 183px;
+    background-image: url(/images/img1/he7.png);
+    background-size: 100% 100%;
+    width: 850px;
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-container .content .require {
+    width: 940px;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.welcome-container .content .require .title {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+}
+.welcome-container .content .require .require-step-content{
+	height: 183px;
+	background-image: url(/images/img1/he5.png);
+	background-size: 100% 100%;
+	width: 900px;
+	margin-top: 62px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+} 
+.welcome-container .content .cost {
+    width: 940px;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.welcome-container .content .cost .title {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+}
+.welcome-container .content .cost .city-food-select{
+	height:350px;
+	background-image: url(/images/img1/he8.png);
+	background-size: 100% 100%;
+	width: 900px;
+	margin-top: 62px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+} 
+.foot {
+    width: 100%;
+    height: 287px;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.foot .title {
+    font-size: 32px;
+    color: #fff;
+}
+.foot .f-open-store {
+    background: #ffd161;
+    border-radius: 2px;
+    margin-top: 30px;
+    width: 148px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot .waimai-logo {
+    position: absolute;
+    right: 268px;
+    top: 141px;
+    border-radius: 4px;
+    width: 101px;
+    height: 62px;
+    overflow: hidden;
+}
